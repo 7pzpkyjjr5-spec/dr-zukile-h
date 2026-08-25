@@ -1,0 +1,35 @@
+# Environment variables - NEVER UPLOAD THIS
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backups
+*.backup
+*.bak
+*.tmp
+
+# Appointments database (optional - backup separately)
+# appointments.json
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Production
+dist/
+build/
+.cache/
